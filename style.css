@@ -1,0 +1,12 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Hide scrollbars */
+  height: 100%;     /* Για να μην γίνεται scrolling */
+}
+canvas {
+  display: block;
+  height: 100%;     /* Για να μην γίνεται scrolling */
+}
+
+@font-face {font-family: "Dead Kansas"; src: url("dead.ttf") format("truetype"); }
